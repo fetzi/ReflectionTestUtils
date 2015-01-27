@@ -1,5 +1,5 @@
 {
-    "name": "jopic/jditestutils",
+    "name": "jopic/reflectiontestutils",
     "description": "utility class for field injection in tests",
     "version": "1.0.0",
     "require-dev": {
