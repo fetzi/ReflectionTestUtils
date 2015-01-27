@@ -17,15 +17,12 @@ class ReflectionTestUtils {
 	 * @throws ReflectionTestUtilsException if property name cannot be found within object
 	 */
 	public static function setField($target, $name, $object) {
-
 		$property = self::getProperty($target, $name);
 		if($property->isPrivate() || $property->isProtected()) {
 			$property->setAccessible(true);
 		}
 
 		$property->setValue($target, $object);
-
-
 	}
 
 	/**
