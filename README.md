@@ -3,6 +3,9 @@
 Utility Class for manipulating classes under test
 This can be relevant if you want to mock certain class variables (e.g. external data providers that don't need to be tested within the current test)
 
+## Build Status
+[![Build Status](https://travis-ci.org/fetzi/ReflectionTestUtils.svg)](https://travis-ci.org/fetzi/ReflectionTestUtils)
+
 ## License
 Copyright 2015 Johannes Pichler
 
@@ -17,5 +20,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-[![Build Status](https://travis-ci.org/fetzi/ReflectionTestUtils.svg)](https://travis-ci.org/fetzi/ReflectionTestUtils)
